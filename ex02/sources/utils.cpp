@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 01:24:11 by qtay              #+#    #+#             */
-/*   Updated: 2024/11/14 01:53:51 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/04 18:43:58 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,9 @@
  * 
  * Must have one virtual function in the base class (source type must
  * be polymorphic).
+ * 
+ * If working with references, dynamic_cast will throw a std::bad_cast
+ * exception if the cast is invalid.
  */
 Base	*generate(void)
 {
