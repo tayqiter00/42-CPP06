@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:22:09 by qtay              #+#    #+#             */
-/*   Updated: 2024/11/13 22:33:14 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/04 17:19:52 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,16 @@ class ScalarConverter
 
 	public:
 		static void		convert(std::string toConvert);
+};
+
+enum	ScalarType
+{
+	CHAR,
+	INT,
+	FLOAT,
+	DOUBLE,
+	PSEUDOLITERAL,
+	ERROR
 };
 
 #endif

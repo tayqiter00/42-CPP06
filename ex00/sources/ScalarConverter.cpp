@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 22:43:37 by qtay              #+#    #+#             */
-/*   Updated: 2024/11/13 22:28:33 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/04 18:20:57 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,6 @@ ScalarConverter	&ScalarConverter::operator=(ScalarConverter &scalar)
 }
 
 ScalarConverter::~ScalarConverter(void) { std::cout << "ScalarConverter destructor called\n"; }
-
-enum	ScalarType
-{
-	CHAR,
-	INT,
-	FLOAT,
-	DOUBLE,
-	PSEUDOLITERAL,
-	ERROR
-};
 
 static bool	isPseudoliteral(std::string const &toConvert)
 {
@@ -158,37 +148,34 @@ static bool	isFloat(const std::string &toConvert)
 		else
 			return (false);
 	}
-	return (hasDigit && (hasDecimal || hasExponent) && hasTrailingF);
+	return (hasDigit && hasTrailingF);
 }
 
-int strToInt(const std::string& str) {
-    long result = 0;
-    int sign = 1;
-    size_t i = 0;
+int strToInt(const std::string& str)
+{
+	long	result = 0;
+	int		sign = 1;
+	size_t	i = 0;
 
-    if (str.empty())
-        return 0;
+	if (str[i] == '-' || str[i] == '+')
+	{
+		if (str[i] == '-')
+			sign = -1;
+		i++;
+	}
 
-    if (str[i] == '-') {
-        sign = -1;
-        i++;
-    } else if (str[i] == '+') {
-        i++;
-    }
+	for (; i < str.length(); i++)
+	{
+		if (str[i] < '0' || str[i] > '9')
+			return (0);  // won't happen but jz leave as it is
 
-    // Iterate over each character in the string
-    for (; i < str.length(); i++) {
-        if (str[i] < '0' || str[i] > '9') {
-            return 0;  // Return 0 to indicate failure
-        }
-
-        int digit = str[i] - '0';
-        result = result * 10 + digit;
-    }
+		int	digit = str[i] - '0';
+		result = result * 10 + digit;
+	}
 	result = result * sign;
 	if (result > INT_MAX || result < INT_MIN)
 		return (0);
-    return static_cast<int>(result);  // Apply the sign to the result
+	return static_cast<int>(result);
 }
 
 static void	printChar(std::string const &toConvert)
@@ -205,20 +192,21 @@ static void	printInt(std::string const &toConvert)
 
 	if (val >= 32 && val <= 126)
     	std::cout << "char: '" << static_cast<char>(val) << "'" << std::endl;
-	else if (val >= 0 && val <= 255)
+	else if ((val > 0 && val <= 255) || (val == 0 && toConvert.length() == 1))
 		std::cout << "char: Non displayable" << std::endl;
 	else
 		std::cout << "char: Impossible" << std::endl;
 
     if (val == 0 && toConvert.length() != 1)
 	{
-   		std::cout << "int: Impossible\n";
 		if (toConvert[0] != '-')
 		{
+			std::cout << "int: Overflow\n";
 			std::cout << "float: +inff\n";
 			std::cout << "double: +inf\n";
 			return ;
 		}
+		std::cout << "int: Underflow\n";
 		std::cout << "float: -inff\n";
 		std::cout << "double: -inf\n";
 		return ;
@@ -246,25 +234,32 @@ static void	printFloat(std::string const &toConvert)
 	// double	_d = std::strtod(toConvert.c_str(), NULL);
 	char	_c = static_cast<unsigned char>(_f);
 
-	if (_f > 31 && _d < 127)
+	if (_f > 31 && _f < 127)
     	std::cout << "char: '" << _c << "'" << std::endl;
 	else if (_f > -1 && _f < 256)
 		std::cout << "char: Non displayable" << std::endl;
 	else
 		std::cout << "char: Impossible" << std::endl;
 
-    if (_l < (std::numeric_limits<int>::min()) || _l > (std::numeric_limits<int>::max()))
-   		std::cout << "int: Impossible\n";
+    if (_l < (std::numeric_limits<int>::min()))
+		std::cout << "int: Underflow\n";
+	else if (_l > (std::numeric_limits<int>::max()))
+   		std::cout << "int: Overflow\n";
 	else
-		std::cout << "int: " << static_cast<int>(_f) << std::endl; // _l vs _f
+		std::cout << "int: " << static_cast<int>(_f) << std::endl;
 
 	if (_f >= std::numeric_limits<float>::max() + 1 || _f <= -std::numeric_limits<float>::max() - 1 || _f == ERANGE)
 	{
-   		std::cout << "float: Impossible\n";
 		if (toConvert[0] == '-')
+		{
+			std::cout << "float: -inff\n";
 			std::cout << "double: -inf\n";
+		}
 		else
-			std::cout << "double: +inf\n";
+		{
+			std::cout << "float: +inff\n";
+			std::cout << "double: +inf\n";	
+		}
 	}
 	else
 	{
@@ -273,12 +268,12 @@ static void	printFloat(std::string const &toConvert)
 		if (floatStr.find('.') != std::string::npos || floatStr.find('e') != std::string::npos)
 		{
 			std::cout << "float: " << _f << "f" << std::endl;
-			std::cout << "double: " <<  static_cast<double>(_f) << std::endl;
+			std::cout << "double: " <<  _d << std::endl;
 		}
 		else
 		{
 			std::cout << "float: " << _f << ".0f" << std::endl;
-			std::cout << "double: " <<  static_cast<double>(_f) << ".0" << std::endl;
+			std::cout << "double: " <<  _d << ".0" << std::endl;
 		}
 	}
 }
@@ -298,19 +293,29 @@ static void	printDouble(std::string const &toConvert)
 	else
 		std::cout << "char: Impossible" << std::endl;
 
-    if (_l < (std::numeric_limits<int>::min()) || _l > (std::numeric_limits<int>::max()))
-   		std::cout << "int: Impossible\n";
+    if (_l < (std::numeric_limits<int>::min()))
+		std::cout << "int: Underflow\n";
+	else if (_l > (std::numeric_limits<int>::max()))
+   		std::cout << "int: Overflow\n";
 	else
-		std::cout << "int: " << static_cast<int>(_d) << std::endl; // cast from _l vs _d
+		std::cout << "int: " << static_cast<int>(_d) << std::endl;
 	
-	if (_d > std::numeric_limits<double>::max() || _d < -std::numeric_limits<double>::max() || _d == ERANGE)
+	if (_d > std::numeric_limits<double>::max())
 	{
-   		std::cout << "float: Impossible\n";
-		std::cout << "double: Impossible\n";
+   		std::cout << "float: Overflow\n";
+		std::cout << "double: Overflow\n";
+	}
+	else if (_d < -std::numeric_limits<double>::max())
+	{
+   		std::cout << "float: Underflow\n";
+		std::cout << "double: Underflow\n";
 	}
 	else if (_d > std::numeric_limits<float>::max() || _d < -std::numeric_limits<float>::max())
 	{
-   		std::cout << "float: Impossible\n";
+		if (_d > std::numeric_limits<float>::max())
+   			std::cout << "float: Overflow\n";
+		else
+			std::cout << "float: Underflow\n";
 		if ((toConvert.length() == 7 && toConvert[0] != '-') || toConvert.length() > 7)
 			std::cout << "double: " << _d << std::endl;
 		else
