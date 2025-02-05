@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 22:43:37 by qtay              #+#    #+#             */
-/*   Updated: 2025/02/04 18:20:57 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/05 20:39:35 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ static bool	isPseudoliteral(std::string const &toConvert)
 static bool	isChar(std::string const &toConvert)
 {
     return (toConvert.length() == 1
-			&& !isdigit(toConvert[0])
-			&& std::isprint(toConvert[0]));
+			&& !isdigit(toConvert[0]));
+			// && std::isprint(toConvert[0]));
 }
 
 /**
@@ -180,7 +180,11 @@ int strToInt(const std::string& str)
 
 static void	printChar(std::string const &toConvert)
 {
-    std::cout << "char: '" << toConvert[0] << "'" << std::endl;
+	std::cout << "printChar\n";
+	if (std::isprint(toConvert[0]))
+		std::cout << "char: '" << toConvert[0] << "'" << std::endl;
+	else
+		std::cout << "char: Non displayable" << std::endl;
     std::cout << "int: " << static_cast<int>(toConvert[0]) << std::endl;
     std::cout << "float: " << static_cast<float>(toConvert[0]) << ".0f" << std::endl;
     std::cout << "double: " << static_cast<double>(toConvert[0]) << ".0" << std::endl;
@@ -190,9 +194,10 @@ static void	printInt(std::string const &toConvert)
 {
 	int	val = strToInt(toConvert);
 
+	std::cout << "printInt\n";
 	if (val >= 32 && val <= 126)
     	std::cout << "char: '" << static_cast<char>(val) << "'" << std::endl;
-	else if ((val > 0 && val <= 255) || (val == 0 && toConvert.length() == 1))
+	else if ((val > 0 && val <= 127) || (val == 0 && toConvert.length() == 1))
 		std::cout << "char: Non displayable" << std::endl;
 	else
 		std::cout << "char: Impossible" << std::endl;
@@ -228,27 +233,27 @@ static void	printInt(std::string const &toConvert)
 static void	printFloat(std::string const &toConvert)
 {
 	std::stringstream ss;
-	long	_l = std::strtol(toConvert.c_str(), NULL, 10);
+	double	_temp = std::strtod(toConvert.c_str(), NULL); // needed cuz beyond INT_MAX/INT_MIN strtof will lose precision
 	float	_f = std::strtof(toConvert.c_str(), NULL);
-	double _d = static_cast<double>(_f);
-	// double	_d = std::strtod(toConvert.c_str(), NULL);
+	double	_d = static_cast<double>(_f);
 	char	_c = static_cast<unsigned char>(_f);
 
-	if (_f > 31 && _f < 127)
+	std::cout << "printFloat\n";
+	if (_temp >= 32 && _temp <= 126)
     	std::cout << "char: '" << _c << "'" << std::endl;
-	else if (_f > -1 && _f < 256)
+	else if (_temp >= 0 && _temp <= 127)
 		std::cout << "char: Non displayable" << std::endl;
 	else
 		std::cout << "char: Impossible" << std::endl;
 
-    if (_l < (std::numeric_limits<int>::min()))
+    if (_temp < (std::numeric_limits<int>::min()))
 		std::cout << "int: Underflow\n";
-	else if (_l > (std::numeric_limits<int>::max()))
+	else if (_temp > (std::numeric_limits<int>::max()))
    		std::cout << "int: Overflow\n";
 	else
 		std::cout << "int: " << static_cast<int>(_f) << std::endl;
 
-	if (_f >= std::numeric_limits<float>::max() + 1 || _f <= -std::numeric_limits<float>::max() - 1 || _f == ERANGE)
+	if (_f > std::numeric_limits<float>::max() || _f < -std::numeric_limits<float>::max() || _f == ERANGE)
 	{
 		if (toConvert[0] == '-')
 		{
@@ -286,9 +291,10 @@ static void	printDouble(std::string const &toConvert)
 	float	_f = static_cast<float>(_d);
 	char	_c = static_cast<unsigned char>(_d);
 
+	std::cout << "printDouble\n";
 	if (_d >= 32 && _d <= 126)
     	std::cout << "char: '" << _c << "'" << std::endl;
-	else if (_d > -1 && _d < 256)
+	else if (_d >= 0 && _d <= 127)
 		std::cout << "char: Non displayable" << std::endl;
 	else
 		std::cout << "char: Impossible" << std::endl;
@@ -400,7 +406,6 @@ void	ScalarConverter::convert(std::string const toConvert)
 		printFloat(toConvert);
 		break;
 	default:
-		std::cerr << "Not a valid type\n";
-		exit(1);
+		throw std::runtime_error("Not a valid type\n");
 	}
 }

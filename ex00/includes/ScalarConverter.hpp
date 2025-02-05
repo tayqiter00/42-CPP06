@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:22:09 by qtay              #+#    #+#             */
-/*   Updated: 2025/02/04 17:19:52 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/05 15:39:53 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 #include <cstdlib>
 #include <cerrno>
 #include <sstream>
+#include <exception>
 
 /**
  * A static member function:
