@@ -1,0 +1,1543 @@
+[ CHAR TEST ]
+printChar
+char: Non displayable
+int: -128
+float: -128.0f
+double: -128.0
+
+printChar
+char: Non displayable
+int: -127
+float: -127.0f
+double: -127.0
+
+printChar
+char: Non displayable
+int: -126
+float: -126.0f
+double: -126.0
+
+printChar
+char: Non displayable
+int: -125
+float: -125.0f
+double: -125.0
+
+printChar
+char: Non displayable
+int: -124
+float: -124.0f
+double: -124.0
+
+printChar
+char: Non displayable
+int: -123
+float: -123.0f
+double: -123.0
+
+printChar
+char: Non displayable
+int: -122
+float: -122.0f
+double: -122.0
+
+printChar
+char: Non displayable
+int: -121
+float: -121.0f
+double: -121.0
+
+printChar
+char: Non displayable
+int: -120
+float: -120.0f
+double: -120.0
+
+printChar
+char: Non displayable
+int: -119
+float: -119.0f
+double: -119.0
+
+printChar
+char: Non displayable
+int: -118
+float: -118.0f
+double: -118.0
+
+printChar
+char: Non displayable
+int: -117
+float: -117.0f
+double: -117.0
+
+printChar
+char: Non displayable
+int: -116
+float: -116.0f
+double: -116.0
+
+printChar
+char: Non displayable
+int: -115
+float: -115.0f
+double: -115.0
+
+printChar
+char: Non displayable
+int: -114
+float: -114.0f
+double: -114.0
+
+printChar
+char: Non displayable
+int: -113
+float: -113.0f
+double: -113.0
+
+printChar
+char: Non displayable
+int: -112
+float: -112.0f
+double: -112.0
+
+printChar
+char: Non displayable
+int: -111
+float: -111.0f
+double: -111.0
+
+printChar
+char: Non displayable
+int: -110
+float: -110.0f
+double: -110.0
+
+printChar
+char: Non displayable
+int: -109
+float: -109.0f
+double: -109.0
+
+printChar
+char: Non displayable
+int: -108
+float: -108.0f
+double: -108.0
+
+printChar
+char: Non displayable
+int: -107
+float: -107.0f
+double: -107.0
+
+printChar
+char: Non displayable
+int: -106
+float: -106.0f
+double: -106.0
+
+printChar
+char: Non displayable
+int: -105
+float: -105.0f
+double: -105.0
+
+printChar
+char: Non displayable
+int: -104
+float: -104.0f
+double: -104.0
+
+printChar
+char: Non displayable
+int: -103
+float: -103.0f
+double: -103.0
+
+printChar
+char: Non displayable
+int: -102
+float: -102.0f
+double: -102.0
+
+printChar
+char: Non displayable
+int: -101
+float: -101.0f
+double: -101.0
+
+printChar
+char: Non displayable
+int: -100
+float: -100.0f
+double: -100.0
+
+printChar
+char: Non displayable
+int: -99
+float: -99.0f
+double: -99.0
+
+printChar
+char: Non displayable
+int: -98
+float: -98.0f
+double: -98.0
+
+printChar
+char: Non displayable
+int: -97
+float: -97.0f
+double: -97.0
+
+printChar
+char: Non displayable
+int: -96
+float: -96.0f
+double: -96.0
+
+printChar
+char: Non displayable
+int: -95
+float: -95.0f
+double: -95.0
+
+printChar
+char: Non displayable
+int: -94
+float: -94.0f
+double: -94.0
+
+printChar
+char: Non displayable
+int: -93
+float: -93.0f
+double: -93.0
+
+printChar
+char: Non displayable
+int: -92
+float: -92.0f
+double: -92.0
+
+printChar
+char: Non displayable
+int: -91
+float: -91.0f
+double: -91.0
+
+printChar
+char: Non displayable
+int: -90
+float: -90.0f
+double: -90.0
+
+printChar
+char: Non displayable
+int: -89
+float: -89.0f
+double: -89.0
+
+printChar
+char: Non displayable
+int: -88
+float: -88.0f
+double: -88.0
+
+printChar
+char: Non displayable
+int: -87
+float: -87.0f
+double: -87.0
+
+printChar
+char: Non displayable
+int: -86
+float: -86.0f
+double: -86.0
+
+printChar
+char: Non displayable
+int: -85
+float: -85.0f
+double: -85.0
+
+printChar
+char: Non displayable
+int: -84
+float: -84.0f
+double: -84.0
+
+printChar
+char: Non displayable
+int: -83
+float: -83.0f
+double: -83.0
+
+printChar
+char: Non displayable
+int: -82
+float: -82.0f
+double: -82.0
+
+printChar
+char: Non displayable
+int: -81
+float: -81.0f
+double: -81.0
+
+printChar
+char: Non displayable
+int: -80
+float: -80.0f
+double: -80.0
+
+printChar
+char: Non displayable
+int: -79
+float: -79.0f
+double: -79.0
+
+printChar
+char: Non displayable
+int: -78
+float: -78.0f
+double: -78.0
+
+printChar
+char: Non displayable
+int: -77
+float: -77.0f
+double: -77.0
+
+printChar
+char: Non displayable
+int: -76
+float: -76.0f
+double: -76.0
+
+printChar
+char: Non displayable
+int: -75
+float: -75.0f
+double: -75.0
+
+printChar
+char: Non displayable
+int: -74
+float: -74.0f
+double: -74.0
+
+printChar
+char: Non displayable
+int: -73
+float: -73.0f
+double: -73.0
+
+printChar
+char: Non displayable
+int: -72
+float: -72.0f
+double: -72.0
+
+printChar
+char: Non displayable
+int: -71
+float: -71.0f
+double: -71.0
+
+printChar
+char: Non displayable
+int: -70
+float: -70.0f
+double: -70.0
+
+printChar
+char: Non displayable
+int: -69
+float: -69.0f
+double: -69.0
+
+printChar
+char: Non displayable
+int: -68
+float: -68.0f
+double: -68.0
+
+printChar
+char: Non displayable
+int: -67
+float: -67.0f
+double: -67.0
+
+printChar
+char: Non displayable
+int: -66
+float: -66.0f
+double: -66.0
+
+printChar
+char: Non displayable
+int: -65
+float: -65.0f
+double: -65.0
+
+printChar
+char: Non displayable
+int: -64
+float: -64.0f
+double: -64.0
+
+printChar
+char: Non displayable
+int: -63
+float: -63.0f
+double: -63.0
+
+printChar
+char: Non displayable
+int: -62
+float: -62.0f
+double: -62.0
+
+printChar
+char: Non displayable
+int: -61
+float: -61.0f
+double: -61.0
+
+printChar
+char: Non displayable
+int: -60
+float: -60.0f
+double: -60.0
+
+printChar
+char: Non displayable
+int: -59
+float: -59.0f
+double: -59.0
+
+printChar
+char: Non displayable
+int: -58
+float: -58.0f
+double: -58.0
+
+printChar
+char: Non displayable
+int: -57
+float: -57.0f
+double: -57.0
+
+printChar
+char: Non displayable
+int: -56
+float: -56.0f
+double: -56.0
+
+printChar
+char: Non displayable
+int: -55
+float: -55.0f
+double: -55.0
+
+printChar
+char: Non displayable
+int: -54
+float: -54.0f
+double: -54.0
+
+printChar
+char: Non displayable
+int: -53
+float: -53.0f
+double: -53.0
+
+printChar
+char: Non displayable
+int: -52
+float: -52.0f
+double: -52.0
+
+printChar
+char: Non displayable
+int: -51
+float: -51.0f
+double: -51.0
+
+printChar
+char: Non displayable
+int: -50
+float: -50.0f
+double: -50.0
+
+printChar
+char: Non displayable
+int: -49
+float: -49.0f
+double: -49.0
+
+printChar
+char: Non displayable
+int: -48
+float: -48.0f
+double: -48.0
+
+printChar
+char: Non displayable
+int: -47
+float: -47.0f
+double: -47.0
+
+printChar
+char: Non displayable
+int: -46
+float: -46.0f
+double: -46.0
+
+printChar
+char: Non displayable
+int: -45
+float: -45.0f
+double: -45.0
+
+printChar
+char: Non displayable
+int: -44
+float: -44.0f
+double: -44.0
+
+printChar
+char: Non displayable
+int: -43
+float: -43.0f
+double: -43.0
+
+printChar
+char: Non displayable
+int: -42
+float: -42.0f
+double: -42.0
+
+printChar
+char: Non displayable
+int: -41
+float: -41.0f
+double: -41.0
+
+printChar
+char: Non displayable
+int: -40
+float: -40.0f
+double: -40.0
+
+printChar
+char: Non displayable
+int: -39
+float: -39.0f
+double: -39.0
+
+printChar
+char: Non displayable
+int: -38
+float: -38.0f
+double: -38.0
+
+printChar
+char: Non displayable
+int: -37
+float: -37.0f
+double: -37.0
+
+printChar
+char: Non displayable
+int: -36
+float: -36.0f
+double: -36.0
+
+printChar
+char: Non displayable
+int: -35
+float: -35.0f
+double: -35.0
+
+printChar
+char: Non displayable
+int: -34
+float: -34.0f
+double: -34.0
+
+printChar
+char: Non displayable
+int: -33
+float: -33.0f
+double: -33.0
+
+printChar
+char: Non displayable
+int: -32
+float: -32.0f
+double: -32.0
+
+printChar
+char: Non displayable
+int: -31
+float: -31.0f
+double: -31.0
+
+printChar
+char: Non displayable
+int: -30
+float: -30.0f
+double: -30.0
+
+printChar
+char: Non displayable
+int: -29
+float: -29.0f
+double: -29.0
+
+printChar
+char: Non displayable
+int: -28
+float: -28.0f
+double: -28.0
+
+printChar
+char: Non displayable
+int: -27
+float: -27.0f
+double: -27.0
+
+printChar
+char: Non displayable
+int: -26
+float: -26.0f
+double: -26.0
+
+printChar
+char: Non displayable
+int: -25
+float: -25.0f
+double: -25.0
+
+printChar
+char: Non displayable
+int: -24
+float: -24.0f
+double: -24.0
+
+printChar
+char: Non displayable
+int: -23
+float: -23.0f
+double: -23.0
+
+printChar
+char: Non displayable
+int: -22
+float: -22.0f
+double: -22.0
+
+printChar
+char: Non displayable
+int: -21
+float: -21.0f
+double: -21.0
+
+printChar
+char: Non displayable
+int: -20
+float: -20.0f
+double: -20.0
+
+printChar
+char: Non displayable
+int: -19
+float: -19.0f
+double: -19.0
+
+printChar
+char: Non displayable
+int: -18
+float: -18.0f
+double: -18.0
+
+printChar
+char: Non displayable
+int: -17
+float: -17.0f
+double: -17.0
+
+printChar
+char: Non displayable
+int: -16
+float: -16.0f
+double: -16.0
+
+printChar
+char: Non displayable
+int: -15
+float: -15.0f
+double: -15.0
+
+printChar
+char: Non displayable
+int: -14
+float: -14.0f
+double: -14.0
+
+printChar
+char: Non displayable
+int: -13
+float: -13.0f
+double: -13.0
+
+printChar
+char: Non displayable
+int: -12
+float: -12.0f
+double: -12.0
+
+printChar
+char: Non displayable
+int: -11
+float: -11.0f
+double: -11.0
+
+printChar
+char: Non displayable
+int: -10
+float: -10.0f
+double: -10.0
+
+printChar
+char: Non displayable
+int: -9
+float: -9.0f
+double: -9.0
+
+printChar
+char: Non displayable
+int: -8
+float: -8.0f
+double: -8.0
+
+printChar
+char: Non displayable
+int: -7
+float: -7.0f
+double: -7.0
+
+printChar
+char: Non displayable
+int: -6
+float: -6.0f
+double: -6.0
+
+printChar
+char: Non displayable
+int: -5
+float: -5.0f
+double: -5.0
+
+printChar
+char: Non displayable
+int: -4
+float: -4.0f
+double: -4.0
+
+printChar
+char: Non displayable
+int: -3
+float: -3.0f
+double: -3.0
+
+printChar
+char: Non displayable
+int: -2
+float: -2.0f
+double: -2.0
+
+printChar
+char: Non displayable
+int: -1
+float: -1.0f
+double: -1.0
+
+printChar
+char: Non displayable
+int: 0
+float: 0.0f
+double: 0.0
+
+printChar
+char: Non displayable
+int: 1
+float: 1.0f
+double: 1.0
+
+printChar
+char: Non displayable
+int: 2
+float: 2.0f
+double: 2.0
+
+printChar
+char: Non displayable
+int: 3
+float: 3.0f
+double: 3.0
+
+printChar
+char: Non displayable
+int: 4
+float: 4.0f
+double: 4.0
+
+printChar
+char: Non displayable
+int: 5
+float: 5.0f
+double: 5.0
+
+printChar
+char: Non displayable
+int: 6
+float: 6.0f
+double: 6.0
+
+printChar
+char: Non displayable
+int: 7
+float: 7.0f
+double: 7.0
+
+printChar
+char: Non displayable
+int: 8
+float: 8.0f
+double: 8.0
+
+printChar
+char: Non displayable
+int: 9
+float: 9.0f
+double: 9.0
+
+printChar
+char: Non displayable
+int: 10
+float: 10.0f
+double: 10.0
+
+printChar
+char: Non displayable
+int: 11
+float: 11.0f
+double: 11.0
+
+printChar
+char: Non displayable
+int: 12
+float: 12.0f
+double: 12.0
+
+printChar
+char: Non displayable
+int: 13
+float: 13.0f
+double: 13.0
+
+printChar
+char: Non displayable
+int: 14
+float: 14.0f
+double: 14.0
+
+printChar
+char: Non displayable
+int: 15
+float: 15.0f
+double: 15.0
+
+printChar
+char: Non displayable
+int: 16
+float: 16.0f
+double: 16.0
+
+printChar
+char: Non displayable
+int: 17
+float: 17.0f
+double: 17.0
+
+printChar
+char: Non displayable
+int: 18
+float: 18.0f
+double: 18.0
+
+printChar
+char: Non displayable
+int: 19
+float: 19.0f
+double: 19.0
+
+printChar
+char: Non displayable
+int: 20
+float: 20.0f
+double: 20.0
+
+printChar
+char: Non displayable
+int: 21
+float: 21.0f
+double: 21.0
+
+printChar
+char: Non displayable
+int: 22
+float: 22.0f
+double: 22.0
+
+printChar
+char: Non displayable
+int: 23
+float: 23.0f
+double: 23.0
+
+printChar
+char: Non displayable
+int: 24
+float: 24.0f
+double: 24.0
+
+printChar
+char: Non displayable
+int: 25
+float: 25.0f
+double: 25.0
+
+printChar
+char: Non displayable
+int: 26
+float: 26.0f
+double: 26.0
+
+printChar
+char: Non displayable
+int: 27
+float: 27.0f
+double: 27.0
+
+printChar
+char: Non displayable
+int: 28
+float: 28.0f
+double: 28.0
+
+printChar
+char: Non displayable
+int: 29
+float: 29.0f
+double: 29.0
+
+printChar
+char: Non displayable
+int: 30
+float: 30.0f
+double: 30.0
+
+printChar
+char: Non displayable
+int: 31
+float: 31.0f
+double: 31.0
+
+printChar
+char: ' '
+int: 32
+float: 32.0f
+double: 32.0
+
+printChar
+char: '!'
+int: 33
+float: 33.0f
+double: 33.0
+
+printChar
+char: '"'
+int: 34
+float: 34.0f
+double: 34.0
+
+printChar
+char: '#'
+int: 35
+float: 35.0f
+double: 35.0
+
+printChar
+char: '$'
+int: 36
+float: 36.0f
+double: 36.0
+
+printChar
+char: '%'
+int: 37
+float: 37.0f
+double: 37.0
+
+printChar
+char: '&'
+int: 38
+float: 38.0f
+double: 38.0
+
+printChar
+char: '''
+int: 39
+float: 39.0f
+double: 39.0
+
+printChar
+char: '('
+int: 40
+float: 40.0f
+double: 40.0
+
+printChar
+char: ')'
+int: 41
+float: 41.0f
+double: 41.0
+
+printChar
+char: '*'
+int: 42
+float: 42.0f
+double: 42.0
+
+printChar
+char: '+'
+int: 43
+float: 43.0f
+double: 43.0
+
+printChar
+char: ','
+int: 44
+float: 44.0f
+double: 44.0
+
+printChar
+char: '-'
+int: 45
+float: 45.0f
+double: 45.0
+
+printChar
+char: '.'
+int: 46
+float: 46.0f
+double: 46.0
+
+printChar
+char: '/'
+int: 47
+float: 47.0f
+double: 47.0
+
+printInt
+char: Non displayable
+int: 0
+float: 0.0f
+double: 0.0
+
+printInt
+char: Non displayable
+int: 1
+float: 1.0f
+double: 1.0
+
+printInt
+char: Non displayable
+int: 2
+float: 2.0f
+double: 2.0
+
+printInt
+char: Non displayable
+int: 3
+float: 3.0f
+double: 3.0
+
+printInt
+char: Non displayable
+int: 4
+float: 4.0f
+double: 4.0
+
+printInt
+char: Non displayable
+int: 5
+float: 5.0f
+double: 5.0
+
+printInt
+char: Non displayable
+int: 6
+float: 6.0f
+double: 6.0
+
+printInt
+char: Non displayable
+int: 7
+float: 7.0f
+double: 7.0
+
+printInt
+char: Non displayable
+int: 8
+float: 8.0f
+double: 8.0
+
+printInt
+char: Non displayable
+int: 9
+float: 9.0f
+double: 9.0
+
+printChar
+char: ':'
+int: 58
+float: 58.0f
+double: 58.0
+
+printChar
+char: ';'
+int: 59
+float: 59.0f
+double: 59.0
+
+printChar
+char: '<'
+int: 60
+float: 60.0f
+double: 60.0
+
+printChar
+char: '='
+int: 61
+float: 61.0f
+double: 61.0
+
+printChar
+char: '>'
+int: 62
+float: 62.0f
+double: 62.0
+
+printChar
+char: '?'
+int: 63
+float: 63.0f
+double: 63.0
+
+printChar
+char: '@'
+int: 64
+float: 64.0f
+double: 64.0
+
+printChar
+char: 'A'
+int: 65
+float: 65.0f
+double: 65.0
+
+printChar
+char: 'B'
+int: 66
+float: 66.0f
+double: 66.0
+
+printChar
+char: 'C'
+int: 67
+float: 67.0f
+double: 67.0
+
+printChar
+char: 'D'
+int: 68
+float: 68.0f
+double: 68.0
+
+printChar
+char: 'E'
+int: 69
+float: 69.0f
+double: 69.0
+
+printChar
+char: 'F'
+int: 70
+float: 70.0f
+double: 70.0
+
+printChar
+char: 'G'
+int: 71
+float: 71.0f
+double: 71.0
+
+printChar
+char: 'H'
+int: 72
+float: 72.0f
+double: 72.0
+
+printChar
+char: 'I'
+int: 73
+float: 73.0f
+double: 73.0
+
+printChar
+char: 'J'
+int: 74
+float: 74.0f
+double: 74.0
+
+printChar
+char: 'K'
+int: 75
+float: 75.0f
+double: 75.0
+
+printChar
+char: 'L'
+int: 76
+float: 76.0f
+double: 76.0
+
+printChar
+char: 'M'
+int: 77
+float: 77.0f
+double: 77.0
+
+printChar
+char: 'N'
+int: 78
+float: 78.0f
+double: 78.0
+
+printChar
+char: 'O'
+int: 79
+float: 79.0f
+double: 79.0
+
+printChar
+char: 'P'
+int: 80
+float: 80.0f
+double: 80.0
+
+printChar
+char: 'Q'
+int: 81
+float: 81.0f
+double: 81.0
+
+printChar
+char: 'R'
+int: 82
+float: 82.0f
+double: 82.0
+
+printChar
+char: 'S'
+int: 83
+float: 83.0f
+double: 83.0
+
+printChar
+char: 'T'
+int: 84
+float: 84.0f
+double: 84.0
+
+printChar
+char: 'U'
+int: 85
+float: 85.0f
+double: 85.0
+
+printChar
+char: 'V'
+int: 86
+float: 86.0f
+double: 86.0
+
+printChar
+char: 'W'
+int: 87
+float: 87.0f
+double: 87.0
+
+printChar
+char: 'X'
+int: 88
+float: 88.0f
+double: 88.0
+
+printChar
+char: 'Y'
+int: 89
+float: 89.0f
+double: 89.0
+
+printChar
+char: 'Z'
+int: 90
+float: 90.0f
+double: 90.0
+
+printChar
+char: '['
+int: 91
+float: 91.0f
+double: 91.0
+
+printChar
+char: '\'
+int: 92
+float: 92.0f
+double: 92.0
+
+printChar
+char: ']'
+int: 93
+float: 93.0f
+double: 93.0
+
+printChar
+char: '^'
+int: 94
+float: 94.0f
+double: 94.0
+
+printChar
+char: '_'
+int: 95
+float: 95.0f
+double: 95.0
+
+printChar
+char: '`'
+int: 96
+float: 96.0f
+double: 96.0
+
+printChar
+char: 'a'
+int: 97
+float: 97.0f
+double: 97.0
+
+printChar
+char: 'b'
+int: 98
+float: 98.0f
+double: 98.0
+
+printChar
+char: 'c'
+int: 99
+float: 99.0f
+double: 99.0
+
+printChar
+char: 'd'
+int: 100
+float: 100.0f
+double: 100.0
+
+printChar
+char: 'e'
+int: 101
+float: 101.0f
+double: 101.0
+
+printChar
+char: 'f'
+int: 102
+float: 102.0f
+double: 102.0
+
+printChar
+char: 'g'
+int: 103
+float: 103.0f
+double: 103.0
+
+printChar
+char: 'h'
+int: 104
+float: 104.0f
+double: 104.0
+
+printChar
+char: 'i'
+int: 105
+float: 105.0f
+double: 105.0
+
+printChar
+char: 'j'
+int: 106
+float: 106.0f
+double: 106.0
+
+printChar
+char: 'k'
+int: 107
+float: 107.0f
+double: 107.0
+
+printChar
+char: 'l'
+int: 108
+float: 108.0f
+double: 108.0
+
+printChar
+char: 'm'
+int: 109
+float: 109.0f
+double: 109.0
+
+printChar
+char: 'n'
+int: 110
+float: 110.0f
+double: 110.0
+
+printChar
+char: 'o'
+int: 111
+float: 111.0f
+double: 111.0
+
+printChar
+char: 'p'
+int: 112
+float: 112.0f
+double: 112.0
+
+printChar
+char: 'q'
+int: 113
+float: 113.0f
+double: 113.0
+
+printChar
+char: 'r'
+int: 114
+float: 114.0f
+double: 114.0
+
+printChar
+char: 's'
+int: 115
+float: 115.0f
+double: 115.0
+
+printChar
+char: 't'
+int: 116
+float: 116.0f
+double: 116.0
+
+printChar
+char: 'u'
+int: 117
+float: 117.0f
+double: 117.0
+
+printChar
+char: 'v'
+int: 118
+float: 118.0f
+double: 118.0
+
+printChar
+char: 'w'
+int: 119
+float: 119.0f
+double: 119.0
+
+printChar
+char: 'x'
+int: 120
+float: 120.0f
+double: 120.0
+
+printChar
+char: 'y'
+int: 121
+float: 121.0f
+double: 121.0
+
+printChar
+char: 'z'
+int: 122
+float: 122.0f
+double: 122.0
+
+printChar
+char: '{'
+int: 123
+float: 123.0f
+double: 123.0
+
+printChar
+char: '|'
+int: 124
+float: 124.0f
+double: 124.0
+
+printChar
+char: '}'
+int: 125
+float: 125.0f
+double: 125.0
+
+printChar
+char: '~'
+int: 126
+float: 126.0f
+double: 126.0
+
+printChar
+char: Non displayable
+int: 127
+float: 127.0f
+double: 127.0
+
+printChar
+char: Non displayable
+int: -128
+float: -128.0f
+double: -128.0
+

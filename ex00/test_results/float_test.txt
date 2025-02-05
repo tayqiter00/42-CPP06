@@ -1,0 +1,102 @@
+[ FLOAT TEST ]
+printFloat
+char: '{'
+int: 123
+float: 123.0f
+double: 123.0
+
+printFloat
+char: Non displayable
+int: -123
+float: -123.0f
+double: -123.0
+
+printFloat
+char: Non displayable
+int: 0
+float: 0.0f
+double: 0.0
+
+printFloat
+char: Impossible
+int: 12367
+float: 12367.2f
+double: 12367.2
+
+printFloat
+char: Impossible
+int: -12367
+float: -12367.2f
+double: -12367.2
+
+printFloat
+char: Impossible
+int: 1234567
+float: 1.23457e+06f
+double: 1.23457e+06
+
+printFloat
+char: Impossible
+int: -1234567
+float: -1.23457e+06f
+double: -1.23457e+06
+
+printFloat
+char: Impossible
+int: Overflow
+float: 2.14748e+09f
+double: 2.14748e+09
+
+printFloat
+char: Impossible
+int: Underflow
+float: -2.14748e+09f
+double: -2.14748e+09
+
+printFloat
+char: Impossible
+int: Overflow
+float: 3.40282e+38f
+double: 3.40282e+38
+
+printFloat
+char: Impossible
+int: Underflow
+float: -3.40282e+38f
+double: -3.40282e+38
+
+printFloat
+char: Non displayable
+int: 0
+float: 1.17549e-38f
+double: 1.17549e-38
+
+printFloat
+char: Non displayable
+int: 0
+float: -1.17549e-38f
+double: -1.17549e-38
+
+printFloat
+char: Impossible
+int: Overflow
+float: +inff (Overflow)
+double: +inf (Overflow)
+
+printFloat
+char: Impossible
+int: Underflow
+float: -inff (Overflow)
+double: -inf (Overflow)
+
+printFloat
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: 0.0 (Underflow)
+
+printFloat
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: 0.0 (Underflow)

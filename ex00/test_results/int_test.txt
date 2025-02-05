@@ -1,0 +1,43 @@
+[ INT TEST ]
+printInt
+char: Non displayable
+int: -123
+float: -123.0f
+double: -123.0
+
+printInt
+char: '{'
+int: 123
+float: 123.0f
+double: 123.0
+
+printInt
+char: Non displayable
+int: 0
+float: 0.0f
+double: 0.0
+
+printInt
+char: Impossible
+int: -2147483648
+float: -2.14748e+09f
+double: -2.14748e+09
+
+printInt
+char: Impossible
+int: 2147483647
+float: 2.14748e+09f
+double: 2.14748e+09
+
+printInt
+char: Impossible
+int: Underflow
+float: -inff
+double: -inf
+
+printInt
+char: Impossible
+int: Overflow
+float: +inff
+double: +inf
+

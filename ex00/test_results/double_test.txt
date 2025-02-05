@@ -1,0 +1,151 @@
+[ DOUBLE TEST ]
+printDouble
+char: '{'
+int: 123
+float: 123.0f
+double: 123.0
+
+printDouble
+char: Non displayable
+int: -123
+float: -123.0f
+double: -123.0
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f
+double: 0.0
+
+printDouble
+char: Impossible
+int: 12367
+float: 12367.2f
+double: 12367.2
+
+printDouble
+char: Impossible
+int: -12367
+float: -12367.2f
+double: -12367.2
+
+printDouble
+char: Impossible
+int: 1234567
+float: 1.23457e+06f
+double: 1.23457e+06
+
+printDouble
+char: Impossible
+int: -1234567
+float: -1.23457e+06f
+double: -1.23457e+06
+
+printDouble
+char: Impossible
+int: Overflow
+float: 2.14748e+09f
+double: 2.14748e+09
+
+printDouble
+char: Impossible
+int: Underflow
+float: -2.14748e+09f
+double: -2.14748e+09
+
+printDouble
+char: Impossible
+int: Overflow
+float: 3.40282e+38f
+double: 3.40282e+38
+
+printDouble
+char: Impossible
+int: Underflow
+float: -3.40282e+38f
+double: -3.40282e+38
+
+printDouble
+char: Non displayable
+int: 0
+float: 1.17549e-38f
+double: 1.17549e-38
+
+printDouble
+char: Non displayable
+int: 0
+float: -1.17549e-38f
+double: -1.17549e-38
+
+printDouble
+char: Impossible
+int: Overflow
+float: +inff (Overflow)
+double: 3.40282e+39
+
+printDouble
+char: Impossible
+int: Underflow
+float: -inff (Overflow)
+double: -3.40282e+39
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: 1.17549e-39
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: -1.17549e-39
+
+printDouble
+char: Impossible
+int: Overflow
+float: +inff (Overflow)
+double: 1.79769e+308
+
+printDouble
+char: Impossible
+int: Underflow
+float: -inff (Overflow)
+double: -1.79769e+308
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: 2.22507e-308
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: -2.22507e-308
+
+printDouble
+char: Impossible
+int: Overflow
+float: +inff (Overflow)
+double: +inf (Overflow)
+
+printDouble
+char: Impossible
+int: Underflow
+float: -inff (Overflow)
+double: -inf (Overflow)
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: 0.0 (Underflow)
+
+printDouble
+char: Non displayable
+int: 0
+float: 0.0f (Underflow)
+double: 0.0 (Underflow)
+

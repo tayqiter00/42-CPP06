@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:22:09 by qtay              #+#    #+#             */
-/*   Updated: 2025/02/05 15:39:53 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/06 02:54:14 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 #include <cerrno>
 #include <sstream>
 #include <exception>
+#include <cmath>
 
 /**
  * A static member function:
@@ -52,5 +53,12 @@ enum	ScalarType
 	PSEUDOLITERAL,
 	ERROR
 };
+
+int		ft_stoi(const std::string& str);
+bool	isPseudoliteral(std::string const &toConvert);
+bool	isChar(std::string const &toConvert);
+bool	isInt(const std::string &toConvert);
+bool	isDouble(const std::string &toConvert);
+bool	isFloat(const std::string &toConvert);
 
 #endif

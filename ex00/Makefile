@@ -3,7 +3,7 @@ NAME = convert
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
 
-SRC = ./sources/main.cpp ./sources/ScalarConverter.cpp
+SRC = ./sources/main.cpp ./sources/ScalarConverter.cpp ./sources/OCF.cpp ./sources/utils.cpp
 
 OBJ =  $(SRC:.cpp=.o)
 

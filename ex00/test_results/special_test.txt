@@ -1,0 +1,31 @@
+[ SPECIAL TEST ]
+char: Impossible
+int: Impossible
+float: nanf
+double: nan
+
+char: Impossible
+int: Impossible
+float: nanf
+double: nan
+
+char: Impossible
+int: Impossible
+float: +inff
+double: +inf
+
+char: Impossible
+int: Impossible
+float: +inff
+double: +inf
+
+char: Impossible
+int: Impossible
+float: -inff
+double: -inf
+
+char: Impossible
+int: Impossible
+float: -inff
+double: -inf
+
