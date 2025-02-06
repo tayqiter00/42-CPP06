@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 00:14:56 by qtay              #+#    #+#             */
-/*   Updated: 2025/02/06 02:53:50 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/06 12:04:48 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,8 +97,6 @@ bool	isDouble(const std::string &toConvert)
 
 	if (toConvert.empty())
 		return (false);
-	if (!toConvert.compare("-inf") || !toConvert.compare("+inf") || !toConvert.compare("nan"))
-		return (true);
 	if (toConvert[i] == '+' || toConvert[i] == '-')
 		i++;
 	for (; i < toConvert.length(); ++i)
@@ -137,8 +135,6 @@ bool	isFloat(const std::string &toConvert)
 
 	if (toConvert.empty())
 		return (false);
-	if (!toConvert.compare("-inff") || !toConvert.compare("+inff") || !toConvert.compare("nanf"))
-		return (true);
 	if (toConvert[i] == '+' || toConvert[i] == '-')
 		i++;
 	for (; i < toConvert.length(); ++i)

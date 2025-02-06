@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 22:43:37 by qtay              #+#    #+#             */
-/*   Updated: 2025/02/06 02:52:34 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/06 12:10:49 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ static void	printFloat(std::string const &toConvert)
 {
 	std::stringstream ss;
 	double	_temp = std::strtod(toConvert.c_str(), NULL);
+	errno = 0;
 	float	_f = std::strtof(toConvert.c_str(), NULL);
 	double	_d = static_cast<double>(_f);
 	char	_c = static_cast<char>(_f);
@@ -225,6 +226,7 @@ static void	printDouble(std::string const &toConvert)
 
 void	printPseudoliteral(std::string const &toConvert)
 {
+	std::cout << "printPseudoliteral\n";
 	std::cout << "char: Impossible" << std::endl;
 	std::cout << "int: Impossible" << std::endl;
 

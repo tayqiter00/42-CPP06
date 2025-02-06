@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:22:09 by qtay              #+#    #+#             */
-/*   Updated: 2025/02/06 02:54:14 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/06 12:01:40 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 #include <sstream>
 #include <exception>
 #include <cmath>
+#include <string>
 
 /**
  * A static member function:
