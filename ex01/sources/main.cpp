@@ -6,7 +6,7 @@
 /*   By: qtay <qtay@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 23:31:20 by qtay              #+#    #+#             */
-/*   Updated: 2024/11/13 23:59:15 by qtay             ###   ########.fr       */
+/*   Updated: 2025/02/07 16:09:15 by qtay             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,11 @@ int	main()
 	data1._dummyStr = "random string";
 	saved = Serializer::serialize(&data1);
 	if (Serializer::deserialize(saved) == &data1)
+	{
+		std::cout << "Original address          : " << &data1 << std::endl;
+		std::cout << "Reinterpret_casted address: " << Serializer::deserialize(saved) << std::endl;
 		std::cout << "SUCCESS!\n";
+	}
 	else
 		std::cout << "FAILURE!\n";
 	return (0);
